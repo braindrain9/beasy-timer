@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyB_zxyDVGbW0po-3gK7rAqrJ1NbOsy61lI',
+    authDomain: 'beasy-timer.firebaseapp.com',
+    databaseURL: 'https://beasy-timer.firebaseio.com',
+    projectId: 'beasy-timer',
+    storageBucket: 'beasy-timer.appspot.com',
+    messagingSenderId: '936131664715'
+  }
 };
 
 /*
